@@ -7,6 +7,7 @@ export interface Pokemon {
   moves: string[];
   spriteUrl?: string; // Lo rellenaremos con la PokéAPI
   types?: string[];   // Lo rellenaremos con la PokéAPI
+  itemSpriteUrl?: string;
 }
 
 export interface Player {
